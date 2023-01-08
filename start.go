@@ -1,6 +1,6 @@
 package main
 
-import (
+/*(import (
 	"fmt"
 	"io/ioutil"
 	"log"
@@ -27,16 +27,16 @@ func main() {
 		fmt.Println(i)
 	}*/
 
-	/*for {
-		fmt.Println("lol")
-	}*/
+/*for {
+	fmt.Println("lol")
+}*/
 
-	files, err := ioutil.ReadDir(".")
-	if err != nil {
+//files, err := ioutil.ReadDir(".")
+/*if err != nil {
 		log.Fatal(err)
 	}
 
 	for _, file := range files {
 		fmt.Println(file.Name())
 	}
-}
+}*/
